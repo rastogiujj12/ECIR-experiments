@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Environments / secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Model and Hugging Face caches
+huggingface_cache/
+hf_cache/
+cache/
+.huggingface/
+
+# Archives / local backups
+Code.zip
+*.zip
+*.tar
+*.tar.gz
+
+# Reconstructible dataset products
+data/processed/
+data/profiles/
+
+# Large/reconstructible retrieval-unit files. Keep only the frozen coding records.
+data/retrieval_units/*
+!data/retrieval_units/query_type_coding_record.csv
+!data/retrieval_units/query_types.csv
+
+# Cross-section retrieval-unit products are reconstructible from the reviewed challenge inputs.
+data/retrieval_units_cross_section_challenge/
+
+# Frozen experiment inputs in data/subsets/ and data/subsets_cross_section_challenge/
+# are intentionally retained.
+
+# Generated experiment artefacts and local environment snapshots
+outputs/
+reproducibility/environment.json
+
+# Logs / temporary files
+logs/
+tmp/
+temp/
+*.log
+
+# Dataset-specific reconstructible products
+data/multidoc2dial/
+data/doc2dial/
