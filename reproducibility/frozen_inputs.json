@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "release_version": "1.0.1",
+  "files": {
+    "sample_manifest": {
+      "path": "data/subsets/selected_documents.csv",
+      "sha256": "946076f8af5ba9418ee5770dbc342427cb1f7b2c4c93cb54a3c5f70865720f97"
+    },
+    "query_types": {
+      "path": "data/retrieval_units/query_types.csv",
+      "sha256": "4b3ea2ea7c22952cdfc5aa05913c80f24d189d81897a037c900b4aa8f19fa4e2"
+    },
+    "query_type_coding_record": {
+      "path": "data/retrieval_units/query_type_coding_record.csv",
+      "sha256": "e5f5cc359f5781c37bc527f87bfbe28efbac0929678ff1660094cd007fde6043"
+    },
+    "challenge_review": {
+      "path": "data/subsets_cross_section_challenge/review_decisions.csv",
+      "sha256": "8d5a73b4598033c119dd7ec55aee830835c1f374631b6161b60339530762b4df"
+    },
+    "challenge_documents": {
+      "path": "data/subsets_cross_section_challenge/selected_documents.csv",
+      "sha256": "5fd7a4dcb065fe20a44e1ea04a85ca762a593de2332b2b55281cb2fef8de40aa"
+    }
+  },
+  "expected_counts": {
+    "sample_papers": 200,
+    "cross_model_core_papers": 150,
+    "granite_extension_papers": 50,
+    "coded_questions": 554,
+    "factual": 432,
+    "section_specific": 66,
+    "multi_hop": 21,
+    "synthesis": 35,
+    "challenge_reviewed": 53,
+    "challenge_accepted": 23,
+    "challenge_documents": 20
+  }
+}

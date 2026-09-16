@@ -1,0 +1,21 @@
+document_id,split,title,character_count,section_count,paragraph_count,question_count,usable_question_count,granite_tokens,jina_tokens,eligibility_group,analysis_set,length_stratum
+1603.01547,test,Text Understanding with the Attention Sum Reader Network,24386,23,69,4,4,4876,5732,cross_model_core,cross_model_core,challenge
+1605.05156,test,Tweet Acts: A Speech Act Classifier for Twitter,16123,9,28,9,9,3233,3823,cross_model_core,cross_model_core,challenge
+1610.03807,test,Question Generation from a Knowledge Base with Web Exploration,12591,10,25,4,4,2852,3227,cross_model_core,cross_model_core,challenge
+1612.02695,test,Towards better decoding and language model integration in sequence to sequence models,20435,15,40,2,2,3903,4810,cross_model_core,cross_model_core,challenge
+1701.03578,test,Efficient Transfer Learning Schemes for Personalized Language Modeling using Recurrent Neural Network,24443,12,43,6,5,5075,5828,cross_model_core,cross_model_core,challenge
+1707.05589,test,On the State of the Art of Evaluation in Neural Language Models,20800,16,49,5,5,4185,4883,cross_model_core,cross_model_core,challenge
+1707.06875,test,Why We Need New Evaluation Metrics for NLG,27258,19,61,2,2,5777,6712,cross_model_core,cross_model_core,challenge
+1707.07212,test,"""i have a feeling trump will win.................."": Forecasting Winners and Losers from User Predictions on Twitter",22975,19,54,3,3,4838,5468,cross_model_core,cross_model_core,challenge
+1707.07568,test,CAp 2017 challenge: Twitter Named Entity Recognition,14996,9,40,6,6,3215,3599,cross_model_core,cross_model_core,challenge
+1709.06136,test,Iterative Policy Learning in End-to-End Trainable Task-Oriented Neural Dialog Models,25074,11,47,4,4,5046,5850,cross_model_core,cross_model_core,challenge
+1810.02268,test,A Large-Scale Test Set for the Evaluation of Context-Aware Pronoun Translation in Neural Machine Translation,26410,14,73,4,4,5254,6087,cross_model_core,cross_model_core,challenge
+1906.01502,test,How multilingual is Multilingual BERT?,15538,18,32,5,5,3151,3698,cross_model_core,cross_model_core,challenge
+1907.05338,test,To Tune or Not To Tune? How About the Best of Both Worlds?,21290,9,27,3,3,4494,5210,cross_model_core,cross_model_core,challenge
+1909.05190,test,Event Representation Learning Enhanced with External Commonsense Knowledge,28769,18,61,3,3,6043,7251,cross_model_core,cross_model_core,challenge
+1911.06919,test,Improved Document Modelling with a Neural Discourse Parser,25468,19,67,3,3,5333,6233,cross_model_core,cross_model_core,challenge
+1802.08969,test,Meta Multi-Task Learning for Sequence Modeling,27373,15,108,3,3,6777,8604,granite_extended,granite_extended,challenge
+1803.08419,test,The Rapidly Changing Landscape of Conversational Agents,41547,15,63,8,8,7879,9132,granite_extended,granite_extended,challenge
+1804.01155,test,Socioeconomic Dependencies of Linguistic Patterns in Twitter: A Multivariate Analysis,48277,18,57,4,4,9574,11555,granite_extended,granite_extended,challenge
+1906.01615,test,Sequential Neural Networks as Automata,38329,22,176,2,2,8276,9922,granite_extended,granite_extended,challenge
+1911.12848,test,Sentiment Analysis On Indian Indigenous Languages: A Review On Multilingual Opinion Mining,42897,27,88,1,1,8591,9872,granite_extended,granite_extended,challenge

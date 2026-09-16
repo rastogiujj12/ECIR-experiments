@@ -1,0 +1,201 @@
+document_id,split,title,character_count,section_count,paragraph_count,question_count,usable_question_count,granite_tokens,jina_tokens,eligibility_group,length_stratum,analysis_set
+1610.09225,validation,Sentiment Analysis of Twitter Data for Predicting Stock Market Movements,17507,15,28,3,3,3413,3885,cross_model_core,length_1,cross_model_core
+1702.06777,train,Dialectometric analysis of language variation in Twitter,17379,10,28,3,3,3410,4047,cross_model_core,length_1,cross_model_core
+1703.10152,test,Automatic Argumentative-Zoning Using Word2vec,17118,13,43,6,6,3407,3986,cross_model_core,length_1,cross_model_core
+1705.02023,test,Senti17 at SemEval-2017 Task 4: Ten Convolutional Neural Network Voters for Tweet Polarity Classification,9056,12,24,2,2,1914,2081,cross_model_core,length_1,cross_model_core
+1706.00188,test,Deep Learning for Hate Speech Detection in Tweets,8690,6,16,4,4,1774,2124,cross_model_core,length_1,cross_model_core
+1707.05236,validation,Artificial Error Generation with Machine Translation and Syntactic Patterns,14958,9,25,5,5,2820,3237,cross_model_core,length_1,cross_model_core
+1708.03699,test,Improved Abusive Comment Moderation with User Embeddings,14533,8,36,1,1,3283,3833,cross_model_core,length_1,cross_model_core
+1711.03759,test,YEDDA: A Lightweight Collaborative Text Span Annotation Tool,15249,9,33,3,3,2959,3518,cross_model_core,length_1,cross_model_core
+1712.05608,validation,A Novel Approach for Effective Learning in Low Resourced Scenarios,13037,8,25,4,3,2849,3205,cross_model_core,length_1,cross_model_core
+1802.05322,train,Classifying movie genres by analyzing text reviews,15138,15,93,3,3,3276,3604,cross_model_core,length_1,cross_model_core
+1803.02914,test,Translating Questions into Answers using DBPedia n-triples,17065,14,28,1,1,3392,3975,cross_model_core,length_1,cross_model_core
+1806.03191,train,Hearst Patterns Revisited: Automatic Hypernym Detection from Large Text Corpora,16479,11,30,3,3,3552,4138,cross_model_core,length_1,cross_model_core
+1808.10290,test,Acquiring Annotated Data with Cross-lingual Explicitation for Implicit Discourse Relation Classification,13510,10,41,3,3,2663,3036,cross_model_core,length_1,cross_model_core
+1809.02494,train,Meteorologists and Students: A resource for language grounding of geographical descriptors,10915,8,24,1,1,2220,2568,cross_model_core,length_1,cross_model_core
+1809.08298,train,How do you correct run-on sentences it's not as easy as it seems,8754,9,19,2,1,1820,2181,cross_model_core,length_1,cross_model_core
+1810.03459,train,"Multilingual sequence-to-sequence speech recognition: architecture, transfer learning, and language modeling",15313,11,35,4,3,3172,3713,cross_model_core,length_1,cross_model_core
+1811.00854,train,Improving Information Retrieval Results for Persian Documents using FarsNet,10254,6,49,2,2,2354,2507,cross_model_core,length_1,cross_model_core
+1812.10860,train,Can You Tell Me How to Get Past Sesame Street? Sentence-Level Pretraining Beyond Language Modeling,15937,10,29,1,1,3161,3733,cross_model_core,length_1,cross_model_core
+1901.09381,test,Dual Co-Matching Network for Multi-choice Reading Comprehension,11497,8,27,2,1,2712,3504,cross_model_core,length_1,cross_model_core
+1903.09588,train,Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence,15395,13,48,2,2,3472,3859,cross_model_core,length_1,cross_model_core
+1903.09722,validation,Pre-trained Language Model Representations for Language Generation,13308,11,23,4,4,2799,3261,cross_model_core,length_1,cross_model_core
+1904.07342,train,Learning Twitter User Sentiments on Climate Change with Limited Labeled Data,13161,6,16,5,5,2670,3120,cross_model_core,length_1,cross_model_core
+1904.11942,train,Contextualized Word Embeddings Enhanced Event Temporal Relation Extraction for Story Understanding,11838,11,27,5,4,2379,2769,cross_model_core,length_1,cross_model_core
+1906.01946,train,Automated Speech Generation from UN General Assembly Statements: Mapping Risks in AI Generated Texts,18211,9,34,1,1,3421,3942,cross_model_core,length_1,cross_model_core
+1906.08286,train,Incorporating Priors with Feature Attribution on Text Classification,13314,9,30,1,1,2561,3078,cross_model_core,length_1,cross_model_core
+1906.08593,validation,Conflict as an Inverse of Attention in Sequence Relationship,17125,16,47,3,2,3349,3868,cross_model_core,length_1,cross_model_core
+1907.02030,train,Real-time Claim Detection from News Articles and Retrieval of Semantically-Similar Factchecks,16820,7,28,5,3,3229,3803,cross_model_core,length_1,cross_model_core
+1907.04433,validation,GluonCV and GluonNLP: Deep Learning in Computer Vision and Natural Language Processing,8533,9,15,1,1,1798,2093,cross_model_core,length_1,cross_model_core
+1907.09369,validation,Emotion Detection in Text: Focusing on Latent Representation,16202,9,31,5,4,3319,3794,cross_model_core,length_1,cross_model_core
+1908.05803,test,Quoref: A Reading Comprehension Dataset with Questions Requiring Coreferential Reasoning,8365,10,13,2,2,1645,1889,cross_model_core,length_1,cross_model_core
+1908.08788,test,Improving Few-shot Text Classification via Pretrained Language Representations.,15821,12,24,3,2,3119,3680,cross_model_core,length_1,cross_model_core
+1909.02265,train,Towards Task-Oriented Dialogue in Mixed Domains,17494,12,41,4,4,3468,4009,cross_model_core,length_1,cross_model_core
+1909.06434,train,Adaptive Scheduling for Multi-Task Learning,15560,13,32,4,4,3176,3805,cross_model_core,length_1,cross_model_core
+1909.06502,test,Multi-class Multilingual Classification of Wikipedia Articles Using Extended Named Entity Tag Set,13998,10,32,2,1,2795,3192,cross_model_core,length_1,cross_model_core
+1909.06708,test,Hint-Based Training for Non-Autoregressive Machine Translation,14906,12,32,5,4,3364,3892,cross_model_core,length_1,cross_model_core
+1909.11980,test,Spoken Conversational Search for General Knowledge,11002,19,31,3,3,2150,2517,cross_model_core,length_1,cross_model_core
+1910.04006,train,Assessing the Efficacy of Clinical Sentiment Analysis and Topic Extraction in Psychiatric Readmission Risk Prediction,13685,9,34,5,5,2691,3036,cross_model_core,length_1,cross_model_core
+1910.05154,train,How Does Language Influence Documentation Workflow? Unsupervised Word Discovery Using Translations in Multiple Languages,8657,7,11,5,5,1636,1982,cross_model_core,length_1,cross_model_core
+1911.04952,train,"'Warriors of the Word' -- Deciphering Lyrical Topics in Music and Their Connection to Audio Feature Dimensions Based on a Corpus of Over 100,000 Metal Songs",12776,10,28,3,1,2657,3087,cross_model_core,length_1,cross_model_core
+1911.07555,validation,Short Text Language Identification for Under Resourced Languages,12646,6,30,9,8,2608,2942,cross_model_core,length_1,cross_model_core
+1911.11161,test,Emotional Neural Language Generation Grounded in Situational Contexts,13011,11,20,1,1,2577,3030,cross_model_core,length_1,cross_model_core
+1911.11951,train,Taking a Stance on Fake News: Towards Automatic Disinformation Assessment via Deep Bidirectional Transformer Language Models for Stance Detection,15641,12,20,1,1,3145,3738,cross_model_core,length_1,cross_model_core
+1912.02761,train,Measuring Social Bias in Knowledge Graph Embeddings,14323,11,31,2,1,2957,3641,cross_model_core,length_1,cross_model_core
+2001.01589,train,Morphological Word Segmentation on Agglutinative Languages for Neural Machine Translation,17742,20,35,4,2,3564,4187,cross_model_core,length_1,cross_model_core
+2002.04181,validation,Performance Comparison of Crowdworkers and NLP Tools onNamed-Entity Recognition and Sentiment Analysis of Political Tweets,10571,7,18,5,5,2290,2605,cross_model_core,length_1,cross_model_core
+2002.11910,validation,Integrating Boundary Assembling into a DNN Framework for Named Entity Recognition in Chinese Social Media Text,12497,11,22,3,3,2510,2950,cross_model_core,length_1,cross_model_core
+2003.08808,train,"Deep Learning for Automatic Tracking of Tongue Surface in Real-time Ultrasound Videos, Landmarks instead of Contours",13065,5,15,2,2,2490,3010,cross_model_core,length_1,cross_model_core
+2003.11687,test,Common-Knowledge Concept Recognition for SEVA,13647,15,37,7,7,2743,3303,cross_model_core,length_1,cross_model_core
+2003.12218,train,Comprehensive Named Entity Recognition on CORD-19 with Distant or Weak Supervision,10048,8,37,3,2,2446,2597,cross_model_core,length_1,cross_model_core
+2003.12660,test,Towards Supervised and Unsupervised Neural Machine Translation Baselines for Nigerian Pidgin,7398,13,31,5,5,1484,1734,cross_model_core,length_1,cross_model_core
+1602.08741,train,Gibberish Semantics: How Good is Russian Twitter in Word Semantic Similarity Task?,20028,14,33,1,1,4322,4776,cross_model_core,length_2,cross_model_core
+1603.08868,test,A Readable Read: Automatic Assessment of Language Learning Materials based on Linguistic Complexity,22049,8,37,5,5,4638,5329,cross_model_core,length_2,cross_model_core
+1606.02892,test,Linguistic Input Features Improve Neural Machine Translation,22941,15,51,2,2,4785,5438,cross_model_core,length_2,cross_model_core
+1608.06378,train,Towards Machine Comprehension of Spoken Content: Initial TOEFL Listening Comprehension Test by Machine,21973,13,30,2,2,4864,5543,cross_model_core,length_2,cross_model_core
+1611.00514,train,The Intelligent Voice 2016 Speaker Recognition System,20741,19,34,3,3,4305,4954,cross_model_core,length_2,cross_model_core
+1703.07476,validation,Topic Identification for Speech without ASR,23333,9,32,2,2,4956,5844,cross_model_core,length_2,cross_model_core
+1703.10090,test,A Short Review of Ethical Challenges in Clinical Natural Language Processing,20627,7,29,2,2,4040,4691,cross_model_core,length_2,cross_model_core
+1705.00861,train,Deep Neural Machine Translation with Linear Associative Unit,19146,13,34,1,1,4171,4702,cross_model_core,length_2,cross_model_core
+1705.03261,train,Drug-drug Interaction Extraction via Recurrent Neural Network with Multiple Attention Layers,22212,16,47,4,4,4623,5460,cross_model_core,length_2,cross_model_core
+1707.00110,train,Efficient Attention using a Fixed-Size Memory Representation,20431,11,46,3,2,4650,5596,cross_model_core,length_2,cross_model_core
+1707.00995,train,An empirical study on the effectiveness of images in Multimodal Neural Machine Translation,24422,17,60,3,2,5157,6011,cross_model_core,length_2,cross_model_core
+1707.07212,test,"""i have a feeling trump will win.................."": Forecasting Winners and Losers from User Predictions on Twitter",22975,19,54,3,3,4838,5468,cross_model_core,length_2,cross_model_core
+1708.04120,train,Putting Self-Supervised Token Embedding on the Tables,23316,14,26,1,1,4885,5655,cross_model_core,length_2,cross_model_core
+1708.08615,train,Comparing Human and Machine Errors in Conversational Speech Transcription,20052,9,23,1,1,4050,4608,cross_model_core,length_2,cross_model_core
+1709.05563,train,Data Innovation for International Development: An overview of natural language processing for qualitative data analysis,25568,20,49,2,1,4600,5456,cross_model_core,length_2,cross_model_core
+1710.03348,validation,What does Attention in Neural Machine Translation Pay Attention to?,22518,14,50,3,3,4508,5211,cross_model_core,length_2,cross_model_core
+1710.07395,train,Detecting Online Hate Speech Using Context Aware Models,20344,13,56,5,5,4004,4531,cross_model_core,length_2,cross_model_core
+1710.07960,validation,How big is big enough? Unsupervised word sense disambiguation using a very large corpus,25039,13,61,2,2,5127,5768,cross_model_core,length_2,cross_model_core
+1801.02243,train,Trading the Twitter Sentiment with Reinforcement Learning,19313,19,41,4,3,3607,4118,cross_model_core,length_2,cross_model_core
+1805.00760,train,Aspect Term Extraction with History Attention and Selective Transformation,25758,13,54,4,4,5270,6166,cross_model_core,length_2,cross_model_core
+1808.09716,test,What can we learn from Semantic Tagging?,18047,19,31,2,1,3961,4778,cross_model_core,length_2,cross_model_core
+1809.02279,validation,Cell-aware Stacked LSTMs for Modeling Sentences,22077,16,54,4,4,4730,5540,cross_model_core,length_2,cross_model_core
+1809.03391,test,Toward a Standardized and More Accurate Indonesian Part-of-Speech Tagging,17011,10,35,4,4,3693,4282,cross_model_core,length_2,cross_model_core
+1810.02268,test,A Large-Scale Test Set for the Evaluation of Context-Aware Pronoun Translation in Neural Machine Translation,26410,14,73,4,4,5254,6087,cross_model_core,length_2,cross_model_core
+1906.01010,test,A computational linguistic study of personal recovery in bipolar disorder,24432,7,27,5,4,4547,5490,cross_model_core,length_2,cross_model_core
+1907.04072,test,Multitask Learning for Blackmarket Tweet Detection,17449,16,46,4,4,3612,4100,cross_model_core,length_2,cross_model_core
+1907.06292,validation,TWEETQA: A Social Media Focused Question Answering Dataset,24750,14,47,3,3,4895,5587,cross_model_core,length_2,cross_model_core
+1908.06264,validation,EmotionX-IDEA: Emotion BERT -- an Affectional Model for Conversation,22116,15,43,5,4,4520,5474,cross_model_core,length_2,cross_model_core
+1909.00542,train,Classification Betters Regression in Query-based Multi-document Summarisation Techniques for Question Answering: Macquarie University at BioASQ7b,18027,9,50,4,3,3638,4240,cross_model_core,length_2,cross_model_core
+1909.03135,validation,To lemmatize or not to lemmatize: how word normalisation affects ELMo performance in word sense disambiguation,19920,8,69,4,4,4081,4671,cross_model_core,length_2,cross_model_core
+1909.12079,test,Improving Fine-grained Entity Typing with Entity Linking,18348,16,44,3,3,4085,4865,cross_model_core,length_2,cross_model_core
+1910.10762,test,Analyzing ASR pretraining for low-resource speech-to-text translation,20968,13,36,4,4,4515,5061,cross_model_core,length_2,cross_model_core
+1910.11949,train,Automatic Reminiscence Therapy for Dementia.,22872,18,76,4,4,4742,5293,cross_model_core,length_2,cross_model_core
+1911.03842,train,Queens are Powerful too: Mitigating Gender Bias in Dialogue Generation,20810,23,34,3,3,4193,4983,cross_model_core,length_2,cross_model_core
+1911.06747,train,Towards Personalized Dialog Policies for Conversational Skill Discovery,21512,14,27,1,1,4495,5085,cross_model_core,length_2,cross_model_core
+1911.07228,train,Error Analysis for Vietnamese Named Entity Recognition on Deep Neural Network Models,16392,12,93,3,3,4025,4404,cross_model_core,length_2,cross_model_core
+1911.13066,train,A Multi-cascaded Deep Model for Bilingual SMS Classification,22179,12,33,4,2,4370,5348,cross_model_core,length_2,cross_model_core
+1912.00159,train,Automatic Creation of Text Corpora for Low-Resource Languages from the Internet: The Case of Swiss German,21750,21,64,1,1,4568,5159,cross_model_core,length_2,cross_model_core
+1912.06262,validation,Extracting clinical concepts from user queries,22397,13,39,2,2,5020,5904,cross_model_core,length_2,cross_model_core
+1912.06927,train,#MeTooMA: Multi-Aspect Annotations of Tweets Related to the MeToo Movement,26871,19,63,1,1,5162,6139,cross_model_core,length_2,cross_model_core
+1912.13072,train,AraNet: A Deep Learning Toolkit for Arabic Social Media,19404,13,30,3,3,4683,5095,cross_model_core,length_2,cross_model_core
+2001.05672,train,AandP: Utilizing Prolog for converting between active sentence and passive sentence with three-steps conversion,20047,10,109,6,2,4525,4999,cross_model_core,length_2,cross_model_core
+2002.02562,train,Transformer Transducer: A Streamable Speech Recognition Model with Transformer Encoders and RNN-T Loss,20339,8,27,4,3,4496,5611,cross_model_core,length_2,cross_model_core
+2002.06851,test,GameWikiSum: a Novel Large Multi-Document Summarization Dataset,17340,12,35,4,4,3576,4035,cross_model_core,length_2,cross_model_core
+2002.08899,train,Compositional Neural Machine Translation by Removing the Lexicon from Syntax,23496,13,44,4,2,4993,5898,cross_model_core,length_2,cross_model_core
+2002.09637,train,Markov Chain Monte-Carlo Phylogenetic Inference Construction in Computational Historical Linguistics,25289,14,35,2,1,5239,6269,cross_model_core,length_2,cross_model_core
+2003.00864,test,Pathological speech detection using x-vector embeddings,20144,18,33,4,4,4091,4798,cross_model_core,length_2,cross_model_core
+2004.02401,test,Applying Cyclical Learning Rate to Neural Machine Translation,21010,14,35,2,2,4354,5048,cross_model_core,length_2,cross_model_core
+2004.03354,validation,Inexpensive Domain Adaptation of Pretrained Language Models: A Case Study on Biomedical Named Entity Recognition,20202,28,64,2,1,5072,6268,cross_model_core,length_2,cross_model_core
+2004.04435,train,Automatic Differentiation in ROOT,19932,12,46,2,1,4160,4952,cross_model_core,length_2,cross_model_core
+1601.06068,train,Paraphrase Generation from Latent-Variable PCFGs for Semantic Parsing,24541,17,45,4,3,5548,6725,cross_model_core,length_3,cross_model_core
+1605.05166,test,Digital Stylometry: Linking Profiles Across Social Networks,27983,10,62,3,3,6099,6934,cross_model_core,length_3,cross_model_core
+1610.06510,test,Learning variable length units for SMT between related languages via Byte Pair Encoding,27684,23,55,4,4,5495,6454,cross_model_core,length_3,cross_model_core
+1611.08661,validation,Knowledge Graph Representation with Jointly Structural and Textual Encoding,22870,15,75,4,3,5331,6521,cross_model_core,length_3,cross_model_core
+1612.08205,validation,Predicting the Industry of Users on Social Media,27985,13,55,5,4,5444,6291,cross_model_core,length_3,cross_model_core
+1702.06700,train,Task-driven Visual Saliency and Attention-based Visual Question Answering,28021,13,47,2,2,5983,6966,cross_model_core,length_3,cross_model_core
+1703.08885,train,Question Answering from Unstructured Text by Retrieval and Comprehension,24344,16,71,1,1,5544,6463,cross_model_core,length_3,cross_model_core
+1704.06851,test,Affect-LM: A Neural Language Model for Customizable Affective Text Generation,30713,18,47,2,2,6557,7668,cross_model_core,length_3,cross_model_core
+1706.01678,validation,Text Summarization using Abstract Meaning Representation,27909,19,52,5,4,5739,6564,cross_model_core,length_3,cross_model_core
+1706.07206,train,Explaining Recurrent Neural Network Predictions in Sentiment Analysis,26131,14,49,1,1,5739,6847,cross_model_core,length_3,cross_model_core
+1707.02377,train,Efficient Vector Representation for Documents through Corruption,28147,12,46,3,3,5788,6892,cross_model_core,length_3,cross_model_core
+1708.09157,train,"Cross-lingual, Character-Level Neural Morphological Tagging",24824,18,56,2,2,5770,7228,cross_model_core,length_3,cross_model_core
+1710.02772,train,Smarnet: Teaching Machines to Read and Comprehend Like Human,27250,15,54,2,2,5523,6309,cross_model_core,length_3,cross_model_core
+1802.07862,validation,Multimodal Named Entity Recognition for Short Social Media Posts,26820,11,64,5,5,5634,6888,cross_model_core,length_3,cross_model_core
+1804.05918,validation,Improving Implicit Discourse Relation Classification by Modeling Inter-dependencies of Discourse Units in a Paragraph,29040,17,61,2,2,5657,6858,cross_model_core,length_3,cross_model_core
+1805.04508,validation,Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems,30695,11,55,2,2,6201,7214,cross_model_core,length_3,cross_model_core
+1811.01183,test,Unsupervised Identification of Study Descriptors in Toxicology Research: An Experimental Study,27709,13,52,5,5,5314,6234,cross_model_core,length_3,cross_model_core
+1811.09786,train,Recurrently Controlled Recurrent Networks,25615,14,57,2,2,5971,6974,cross_model_core,length_3,cross_model_core
+1902.06734,test,Author Profiling for Hate Speech Detection,28895,11,45,3,3,6351,7333,cross_model_core,length_3,cross_model_core
+1905.08949,train,Recent Advances in Neural Question Generation,32945,20,60,7,3,6872,7944,cross_model_core,length_3,cross_model_core
+1905.10238,train,Incorporating Context and External Knowledge for Pronoun Coreference Resolution,27413,16,72,2,2,6123,7305,cross_model_core,length_3,cross_model_core
+1908.08717,validation,Gender Representation in French Broadcast Corpora and Its Impact on ASR Performance,26322,18,40,6,6,5485,6009,cross_model_core,length_3,cross_model_core
+1908.08917,test,A Lost Croatian Cybernetic Machine Translation Program,28182,5,45,5,4,6018,6606,cross_model_core,length_3,cross_model_core
+1908.11053,test,Leveraging Frequent Query Substructures to Generate Formal Queries for Complex Question Answering,27468,15,66,5,5,5744,6737,cross_model_core,length_3,cross_model_core
+1909.00100,train,Small and Practical BERT Models for Sequence Labeling,17042,17,251,3,3,7671,5718,cross_model_core,length_3,cross_model_core
+1909.00326,validation,Towards Understanding Neural Machine Translation with Word Importance,30814,27,67,4,3,5897,7140,cross_model_core,length_3,cross_model_core
+1909.00437,test,Evaluating the Cross-Lingual Effectiveness of Massively Multilingual Neural Machine Translation,26481,28,45,4,4,5593,6363,cross_model_core,length_3,cross_model_core
+1909.01247,train,Introducing RONEC -- the Romanian Named Entity Corpus,25177,27,145,3,2,6040,6392,cross_model_core,length_3,cross_model_core
+1909.05360,train,Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction,32424,37,59,3,2,6881,8163,cross_model_core,length_3,cross_model_core
+1909.09484,train,Generative Dialog Policy for Task-oriented Dialog Systems,26085,20,63,4,4,5609,6570,cross_model_core,length_3,cross_model_core
+1909.09524,train,Pivot-based Transfer Learning for Neural Machine Translation between Non-English Languages,30120,15,92,3,3,6391,7694,cross_model_core,length_3,cross_model_core
+1910.00458,train,MMM: Multi-stage Multi-task Learning for Multi-choice Reading Comprehension,30335,22,42,4,3,6579,7749,cross_model_core,length_3,cross_model_core
+1910.00912,train,Hierarchical Multi-Task Natural Language Understanding for Cross-domain Conversational AI: HERMIT NLU,30047,20,43,2,2,6326,7571,cross_model_core,length_3,cross_model_core
+1910.06701,train,NumNet: Machine Reading Comprehension with Numerical Reasoning,30776,27,94,1,1,6766,8169,cross_model_core,length_3,cross_model_core
+1910.14589,test,Machine Translation of Restaurant Reviews: New Corpus for Domain Adaptation and Robustness,25258,32,70,5,5,5453,6111,cross_model_core,length_3,cross_model_core
+1911.00841,validation,Question Answering for Privacy Policies: Combining Computational and Legal Perspectives,26870,19,53,5,5,5431,5928,cross_model_core,length_3,cross_model_core
+1911.12722,test,A Fine-Grained Sentiment Dataset for Norwegian,29714,31,56,4,4,6010,7079,cross_model_core,length_3,cross_model_core
+1912.04961,validation,Medication Regimen Extraction From Clinical Conversations,31191,17,57,3,3,6693,7797,cross_model_core,length_3,cross_model_core
+1912.05238,train,BERT has a Moral Compass: Improvements of ethical and moral values of machines,30702,13,47,5,4,6392,7680,cross_model_core,length_3,cross_model_core
+1912.11637,test,Explicit Sparse Transformer: Concentrated Attention Through Explicit Selection,26001,25,60,2,2,5479,6346,cross_model_core,length_3,cross_model_core
+2001.05493,train,A Unified System for Aggression Identification in English Code-Mixed and Uni-Lingual Texts,29190,15,66,5,4,6620,7714,cross_model_core,length_3,cross_model_core
+2001.08845,train,Linguistic Fingerprints of Internet Censorship: the Case of SinaWeibo,27898,21,55,1,1,5887,6616,cross_model_core,length_3,cross_model_core
+2001.10161,train,Bringing Stories Alive: Generating Interactive Fiction Worlds,29789,14,41,2,2,5685,6604,cross_model_core,length_3,cross_model_core
+2001.11268,train,Data Mining in Clinical Trial Text: Transformers for Classification and Question Answering Tasks,35367,24,59,2,2,6855,8190,cross_model_core,length_3,cross_model_core
+2002.05058,train,Learning to Compare for Better Training and Evaluation of Open Domain Natural Language Generation Models,34479,17,56,4,3,6529,7707,cross_model_core,length_3,cross_model_core
+2002.10210,test,Learning to Select Bi-Aspect Information for Document-Scale Text Content Manipulation,30271,19,52,4,4,6505,7750,cross_model_core,length_3,cross_model_core
+2003.08132,train,Gender Representation in Open Source Speech Resources,27531,23,60,3,1,5500,6107,cross_model_core,length_3,cross_model_core
+2003.12738,train,Variational Transformers for Diverse Response Generation,26146,27,49,3,3,5390,6714,cross_model_core,length_3,cross_model_core
+2004.02451,train,An analysis of the utility of explicit negative examples to improve the syntactic abilities of neural language models,29453,28,75,3,2,6053,7163,cross_model_core,length_3,cross_model_core
+2004.03744,train,e-SNLI-VE-2.0: Corrected Visual-Textual Entailment with Natural Language Explanations,30854,26,68,5,5,6852,7654,cross_model_core,length_3,cross_model_core
+1603.04513,train,Multichannel Variable-Size Convolution for Sentence Classification,31904,11,74,5,4,7190,8487,granite_extended,length_1,granite_extended
+1612.02482,validation,Improving the Performance of Neural Machine Translation Involving Morphologically Rich Languages,35328,21,57,2,1,7187,8344,granite_extended,length_1,granite_extended
+1701.02025,train,Multi-level Representations for Fine-Grained Typing of Knowledge Base Entities,32735,12,70,1,1,7670,9105,granite_extended,length_1,granite_extended
+1705.09665,train,Community Identity and User Engagement in a Multi-Community Landscape,39403,15,78,6,6,7658,8751,granite_extended,length_1,granite_extended
+1706.02427,test,Content-Based Table Retrieval for Web Queries,31218,15,62,5,4,7446,8909,granite_extended,length_1,granite_extended
+1706.04815,train,S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension,28604,15,81,3,3,7348,8651,granite_extended,length_1,granite_extended
+1711.03438,train,Open-World Knowledge Graph Completion,33791,15,76,1,1,7807,9562,granite_extended,length_1,granite_extended
+1803.03664,train,Automating Reading Comprehension by Generating Question and Answer Pairs,32353,15,71,1,1,7040,8483,granite_extended,length_1,granite_extended
+1808.09920,train,Question Answering by Reasoning Across Documents with Graph Convolutional Networks,32184,16,61,7,4,7166,8664,granite_extended,length_1,granite_extended
+1811.11365,train,Unsupervised Multi-modal Neural Machine Translation,30639,15,65,1,1,7092,8806,granite_extended,length_1,granite_extended
+1905.06512,train,Incorporating Sememes into Chinese Definition Modeling,28420,14,92,4,3,7003,8736,granite_extended,length_1,granite_extended
+1906.09777,train,A Tensorized Transformer for Language Modeling,29115,15,57,1,1,6858,8320,granite_extended,length_1,granite_extended
+1909.02304,validation,"Table-to-Text Generation with Effective Hierarchical Encoder on Three Dimensions (Row, Column and Time)",32562,21,32,2,2,7209,8647,granite_extended,length_1,granite_extended
+1910.02001,test,Predicting the Role of Political Trolls in Social Media,33154,23,84,4,4,7123,8366,granite_extended,length_1,granite_extended
+1911.10401,test,A Transformer-based approach to Irony and Sarcasm detection,33936,12,29,5,5,6824,8365,granite_extended,length_1,granite_extended
+1911.10742,test,End-to-End Trainable Non-Collaborative Dialog System,36984,21,56,4,4,7569,8907,granite_extended,length_1,granite_extended
+1912.00342,test,Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives,36838,22,117,3,3,7777,8708,granite_extended,length_1,granite_extended
+1704.08424,train,Multimodal Word Distributions,37495,20,84,1,1,8917,11343,granite_extended,length_2,granite_extended
+1708.07252,test,A Study on Neural Network Language Modeling,40513,16,64,4,4,8082,9460,granite_extended,length_2,granite_extended
+1711.04964,test,Dynamic Fusion Networks for Machine Reading Comprehension,38242,19,76,1,1,9161,11262,granite_extended,length_2,granite_extended
+1803.08419,test,The Rapidly Changing Landscape of Conversational Agents,41547,15,63,8,8,7879,9132,granite_extended,length_2,granite_extended
+1806.03125,validation,Text Classification based on Word Subspace with Term-Frequency,33883,14,115,2,2,8006,9706,granite_extended,length_2,granite_extended
+1809.02286,validation,Dynamic Compositionality in Recursive Neural Networks with Structure-aware Tag Representations,33320,13,85,1,1,7931,10137,granite_extended,length_2,granite_extended
+1809.06963,train,Multi-task Learning with Sample Re-weighting for Machine Reading Comprehension,32023,21,69,1,1,7959,9546,granite_extended,length_2,granite_extended
+1901.09755,train,Language Independent Sequence Labelling for Opinion Target Extraction,37453,15,75,4,4,7876,8757,granite_extended,length_2,granite_extended
+1905.00563,train,Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications,33110,23,53,3,3,7969,10072,granite_extended,length_2,granite_extended
+1906.11180,train,Canonicalizing Knowledge Base Literals,37974,15,65,3,2,8851,10826,granite_extended,length_2,granite_extended
+1908.06024,test,Tackling Online Abuse: A Survey of Automated Abuse Detection Methods,38790,7,39,4,3,8206,9633,granite_extended,length_2,granite_extended
+1908.06151,train,The Transference Architecture for Automatic Post-Editing,33164,15,41,3,3,8469,9933,granite_extended,length_2,granite_extended
+1911.09241,test,Assessing the Benchmarking Capacity of Machine Reading Comprehension Datasets,37432,22,59,2,2,7867,9042,granite_extended,length_2,granite_extended
+1912.02481,train,Massive vs. Curated Word Embeddings for Low-Resourced Languages. The Case of Yor\`ub\'a and Twi,34602,16,60,3,2,7876,9009,granite_extended,length_2,granite_extended
+1912.07976,train,A Multi-task Learning Model for Chinese-oriented Aspect Polarity Classification and Aspect Term Extraction,40166,29,87,6,4,8383,10063,granite_extended,length_2,granite_extended
+2001.02214,train,Attributed Multi-Relational Attention Network for Fact-checking URL Recommendation,42009,35,92,3,2,9023,10589,granite_extended,length_2,granite_extended
+2001.03632,train,Does syntax need to grow on trees? Sources of hierarchical inductive bias in sequence-to-sequence networks,44270,27,89,1,1,9020,10770,granite_extended,length_2,granite_extended
+1601.04012,train,Detecting and Extracting Events from Text Documents,140806,28,284,1,1,29378,33950,granite_extended,length_3,granite_extended
+1701.02877,train,Generalisation in Named Entity Recognition: A Quantitative Analysis,60884,11,126,1,1,13081,14864,granite_extended,length_3,granite_extended
+1705.03151,train,Phonetic Temporal Neural Model for Language Identification,45896,24,71,3,2,9821,11511,granite_extended,length_3,granite_extended
+1707.07048,train,Progressive Joint Modeling in Unsupervised Single-channel Overlapped Speech Recognition,60033,15,130,2,2,12856,16257,granite_extended,length_3,granite_extended
+1806.11322,train,Bias in Semantic and Discourse Interpretation,77996,12,145,2,2,16941,19006,granite_extended,length_3,granite_extended
+1807.09000,train,Speakers account for asymmetries in visual perspective so listeners don't have to,49821,14,68,2,2,10948,12844,granite_extended,length_3,granite_extended
+1811.00051,test,Generating Texts with Integer Linear Programming,115765,20,248,1,1,26725,32218,granite_extended,length_3,granite_extended
+1902.08830,test,Categorization in the Wild: Generalizing Cognitive Models to Naturalistic Data across Languages,64421,19,109,3,3,13057,15957,granite_extended,length_3,granite_extended
+1906.06349,test,On the Computational Power of RNNs,40356,7,208,2,1,10046,10931,granite_extended,length_3,granite_extended
+1907.01468,validation,How we do things with words: Analyzing text as social and cultural data,56639,19,75,5,2,10683,12536,granite_extended,length_3,granite_extended
+1910.09399,train,A Survey and Taxonomy of Adversarial Neural Networks for Text-to-Image Synthesis,70970,37,120,4,4,14109,17049,granite_extended,length_3,granite_extended
+1911.03562,train,The State of NLP Literature: A Diachronic Analysis of the ACL Anthology,57923,16,170,7,3,12559,13575,granite_extended,length_3,granite_extended
+1912.08320,train,"Garbage In, Garbage Out? Do Machine Learning Application Papers in Social Computing Report Where Human-Labeled Training Data Comes From?",82697,37,157,4,4,16161,18648,granite_extended,length_3,granite_extended
+2002.06053,train,Exploring Chemical Space using Natural Language Processing Methodologies for Drug Discovery,57171,35,70,3,3,11587,13982,granite_extended,length_3,granite_extended
+2002.09758,train,Unsupervised Question Decomposition for Question Answering,41760,50,68,3,3,9533,11599,granite_extended,length_3,granite_extended
+2003.03014,validation,A Framework for the Computational Linguistic Analysis of Dehumanization,89099,39,110,3,3,17548,20297,granite_extended,length_3,granite_extended

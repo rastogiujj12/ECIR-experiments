@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sclc-retrieval"
+version = "1.0.1"
+description = "Controlled retrieval experiment for section-constrained late chunking"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {text = "MIT"}
+authors = [{name = "Ujjwal Rastogi"}]
+keywords = ["RAG", "dense retrieval", "late chunking", "information retrieval"]
+dependencies = [
+    "datasets>=3.0",
+    "huggingface-hub>=0.27",
+    "transformers>=5.14,<6",
+    "peft>=0.14",
+    "torch>=2.3",
+    "pydantic>=2.8,<3",
+    "PyYAML>=6.0",
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "numpy>=1.26",
+    "typer>=0.12",
+    "rich>=13.7",
+    "tqdm>=4.66",
+]
+
+[project.urls]
+Repository = "https://github.com/rastogiujj12/sclc-retrieval"
+Issues = "https://github.com/rastogiujj12/sclc-retrieval/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "pandas-stubs>=2.2",
+    "types-PyYAML>=6.0",
+    "types-tqdm>=4.66",
+]
+
+[project.scripts]
+sclc = "sclc.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sclc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+strict = true
+packages = ["sclc"]
+
+[[tool.mypy.overrides]]
+module = [
+    "datasets",
+    "datasets.*",
+    "pandas",
+    "pandas.*",
+    "tqdm",
+    "tqdm.*",
+    "yaml",
+    "yaml.*",
+]
+ignore_missing_imports = true
+
+[tool.ruff.lint.per-file-ignores]
+"src/sclc/cli.py" = ["B008"]
