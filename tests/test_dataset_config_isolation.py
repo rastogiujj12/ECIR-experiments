@@ -14,3 +14,16 @@ def test_multidoc2dial_uses_dataset_specific_paths() -> None:
     assert str(config.paths.ranking_dir).startswith("outputs/multidoc2dial/")
     assert str(config.paths.evaluation_dir).startswith("outputs/multidoc2dial/")
     assert str(config.paths.analysis_dir).startswith("outputs/multidoc2dial/")
+
+
+def test_doc2dial_uses_dataset_specific_paths() -> None:
+    config = load_config(Path("configs/doc2dial.yaml"))
+
+    assert str(config.paths.processed_dir).startswith("data/doc2dial/")
+    assert str(config.paths.profile_dir).startswith("data/doc2dial/")
+    assert str(config.paths.subset_dir).startswith("data/doc2dial/")
+    assert str(config.paths.retrieval_unit_dir).startswith("data/doc2dial/")
+    assert str(config.paths.encoding_dir).startswith("outputs/doc2dial/")
+    assert str(config.paths.ranking_dir).startswith("outputs/doc2dial/")
+    assert str(config.paths.evaluation_dir).startswith("outputs/doc2dial/")
+    assert str(config.paths.analysis_dir).startswith("outputs/doc2dial/")

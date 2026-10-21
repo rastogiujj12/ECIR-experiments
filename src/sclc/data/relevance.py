@@ -31,6 +31,8 @@ def prepare_queries(document: DocumentRecord, analysis_set: str) -> list[Prepare
         for answer in query.answers:
             if answer.unanswerable:
                 continue
+            if not answer.has_complete_textual_evidence:
+                continue
             paragraph_ids = sorted(
                 {
                     paragraph_id

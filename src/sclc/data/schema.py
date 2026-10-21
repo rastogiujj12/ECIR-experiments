@@ -52,6 +52,14 @@ class AnswerAnnotation(BaseModel):
     evidence: list[EvidenceItem] = Field(default_factory=list)
     highlighted_evidence: list[str] = Field(default_factory=list)
 
+    @property
+    def has_complete_textual_evidence(self) -> bool:
+        textual = [item for item in self.evidence if not item.is_float]
+        return bool(textual) and all(
+            item.matched_paragraph_ids and item.alignment_status != "matched_ambiguous"
+            for item in textual
+        )
+
 
 class QueryRecord(BaseModel):
     query_id: str
@@ -61,11 +69,9 @@ class QueryRecord(BaseModel):
     @property
     def has_usable_textual_evidence(self) -> bool:
         return any(
-            item.matched_paragraph_ids
+            answer.has_complete_textual_evidence
             for answer in self.answers
             if not answer.unanswerable
-            for item in answer.evidence
-            if not item.is_float
         )
 
 

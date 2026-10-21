@@ -28,6 +28,9 @@ class DatasetConfig(BaseModel):
     subset: str | None = None
     splits: list[str] = Field(default_factory=lambda: ["train", "validation", "test"])
     parquet_files: dict[str, str] = Field(default_factory=dict)
+    raw_json_path: Path | None = None
+    qasa_paper_cache_dir: Path | None = None
+    qasa_request_timeout_seconds: int = 60
 
 
 class DocumentConfig(BaseModel):

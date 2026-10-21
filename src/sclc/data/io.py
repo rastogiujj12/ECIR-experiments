@@ -58,6 +58,8 @@ def evidence_alignment_frame(documents: Iterable[DocumentRecord]) -> pd.DataFram
                             "is_float": evidence.is_float,
                             "alignment_status": evidence.alignment_status,
                             "matched_paragraph_count": len(evidence.matched_paragraph_ids),
+                            "matched_paragraph_ids": ";".join(evidence.matched_paragraph_ids),
+                            "question_usable": query.has_usable_textual_evidence,
                             "evidence_text": evidence.text,
                         }
                     )
