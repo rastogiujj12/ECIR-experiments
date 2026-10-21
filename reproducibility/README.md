@@ -18,3 +18,5 @@ inventing a historical revision.
 `reproducibility/frozen_inputs.json` stores the expected hashes and counts for the small frozen
 inputs committed with the dissertation artefact. Run `python scripts/check_release.py` before
 creating a release to verify those inputs and the release metadata.
+
+QASA source reconstruction: when the unversioned arXiv page does not reproduce the stored evidence annotations, the adapter checks the paper's arXiv version history and selects the version with the highest exact evidence-paragraph coverage. This is a preprocessing/source-reconstruction step, not a performance-based selection.

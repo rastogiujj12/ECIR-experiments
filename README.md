@@ -183,3 +183,20 @@ MultiDoc2Dial is isolated under `data/multidoc2dial/` and
 `outputs/multidoc2dial/`, leaving the existing QASPER state untouched.
 Future datasets should follow the same convention with their own configured
 directory namespace.
+
+## ECIR v0.1.7 — Doc2Dial validation corpus
+
+Added an isolated Doc2Dial v1.0.1 adapter and configuration. The adapter uses the
+publisher-provided document text, section spans (`id_sec`, `start_sec`, `end_sec`,
+`title`, `parent_titles`) and dialogue grounding references directly. It does not
+parse or clean HTML or infer section boundaries from document text. The validation
+dialogue split is used as the fixed evaluation population.
+
+Prepare with:
+
+```bash
+source .venv/bin/activate
+python scripts/prepare_doc2dial.py configs/doc2dial.yaml --split validation
+```
+
+Doc2Dial state is isolated under `data/doc2dial/` and `outputs/doc2dial/`.

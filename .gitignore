@@ -63,6 +63,19 @@ tmp/
 temp/
 *.log
 
-# Dataset-specific reconstructible products
-data/multidoc2dial/
-data/doc2dial/
+# Local datasets and generated experiment artifacts
+/.venv/
+/data/
+/outputs/
+
+# Local debugging notes and generated audit reports
+/QASA_DEBUG_NOTES.md
+/QASA_V027_SMOKETEST.md
+/QASA_V037_NOTES.md
+/QASA_V038_NOTES.md
+/qasa_analysis_files.txt
+/qasa_evaluation_files.txt
+/qasa_missing_questions*.txt
+/qasa_p52_q8_audit.txt
+/qasa_result_summary.txt
+/qasa_*.patch

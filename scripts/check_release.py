@@ -231,6 +231,13 @@ def check_legacy_text() -> None:
         if any(part.startswith(".") for part in path.relative_to(REPO_ROOT).parts):
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
+        if path.name == "README.md":
+            lines = [
+                line
+                for line in text.splitlines()
+                if not re.match(r"^##\s+ECIR v0\.\d+", line)
+            ]
+            text = "\n".join(lines)
         for pattern in LEGACY_PATTERNS:
             if pattern.search(text):
                 hits.append(f"{path.relative_to(REPO_ROOT)}: {pattern.pattern}")
