@@ -1,0 +1,104 @@
+project:
+  seed: 42
+paths:
+  processed_dir: data/doc2dial/processed
+  profile_dir: data/doc2dial/profiles
+  subset_dir: data/doc2dial/subsets
+  retrieval_unit_dir: data/doc2dial/retrieval_units
+  encoding_dir: outputs/doc2dial/encodings
+  ranking_dir: outputs/doc2dial/rankings
+  evaluation_dir: outputs/doc2dial/evaluation
+  analysis_dir: outputs/doc2dial/analysis
+  hf_cache_dir: cache/huggingface
+dataset:
+  repo_id: IBM/doc2dial
+  splits:
+  - train
+  - validation
+document:
+  include_title: true
+  include_abstract: false
+  abstract_heading: Abstract
+  hierarchy_separator: ' ::: '
+  heading_separator: '
+
+
+    '
+  paragraph_separator: '
+
+
+    '
+  section_separator: '
+
+
+    '
+  remove_reference_sections: false
+  reference_headings: []
+chunking:
+  canonical_tokenizer: ibm-granite/granite-embedding-311m-multilingual-r2
+  tokenizer_trust_remote_code: false
+  chunk_size_tokens: 512
+  supported_chunk_sizes:
+  - 128
+  - 256
+  - 512
+  overlap_tokens: 0
+  retain_short_final_chunk: true
+models:
+  granite:
+    model_id: ibm-granite/granite-embedding-311m-multilingual-r2
+    tokenizer_trust_remote_code: false
+    max_document_tokens: 32768
+  jina:
+    model_id: jinaai/jina-embeddings-v3-hf
+    tokenizer_trust_remote_code: false
+    model_trust_remote_code: false
+    max_document_tokens: 8192
+    passage_adapter: retrieval_passage
+    query_adapter: retrieval_query
+sampling:
+  core_documents: 10000
+  granite_extended_documents: 0
+  minimum_usable_questions: 1
+  length_bins: 3
+dense:
+  pooling: mean
+  normalize: true
+  batch_size: 8
+  device: cuda
+  dtype: float16
+  attn_implementation: flex_attention
+  output_dtype: float32
+bm25:
+  lowercase: true
+  token_pattern: (?u)\b\w[\w'-]*\b
+  k1: 1.5
+  b: 0.75
+ranking:
+  max_depth: 10
+  store_complete_ranking: true
+evaluation:
+  cutoffs:
+  - 1
+  - 3
+  - 5
+  - 10
+  token_budgets:
+  - 512
+  - 1024
+  - 2048
+  - 4096
+  primary_metric: ndcg_at_5
+  bootstrap_iterations: 10000
+  confidence_level: 0.95
+  bootstrap_metrics:
+  - ndcg_at_5
+  - recall_at_5
+  - evidence_paragraph_recall_at_5
+  - complete_evidence_at_5
+  - evidence_paragraph_recall_at_token_budget_1024
+  - complete_evidence_at_token_budget_2048
+  query_types_filename: query_types.csv
+  confirmatory_split: validation
+  require_query_types: false
+  error_analysis_per_direction: 10
